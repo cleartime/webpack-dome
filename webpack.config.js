@@ -1,7 +1,7 @@
 const path = require('path');
 module.exports = {
 	entry:{
-		a:'./hello.js',
+		a:'./src/script/main.js',
 		b:'./word.js'
 	},
 	output:{
