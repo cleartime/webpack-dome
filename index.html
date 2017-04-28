@@ -1,10 +1,22 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>webpack dome</title>
-	<script type="text/javascript" src='hello.bulid.js'></script>
-</head>
-<body>
 
+<head>
+	<title>
+		<%= htmlWebpackPlugin.options.title %>
+	</title>
+	<style>
+		body{
+			border:1px solid red
+		}
+	</style>
+</head>
+
+<body>
+	<%= JSON.stringify(htmlWebpackPlugin) %>
+	<script src="<%= htmlWebpackPlugin.files. %>">
+		
+	</script>
 </body>
+
 </html>
