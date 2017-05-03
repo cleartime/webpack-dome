@@ -14,4 +14,10 @@ module.exports = {
 			use: 'babel-loader'
 		}]
 	},
+	plugins: [
+		new htmlWebpackPlugin({
+			filename: 'index.html',
+			template: 'index.html',
+		}),
+	],
 }
